@@ -17,4 +17,21 @@ const updatedUser = {
 
 //
 
+const apiEndpoint = "https://mockapi.io/clone/679524c4aad755a134eb51f7";
+
+const updatingUser = async (user) => {
+  try {
+    const response = await fetch(apiEndpoint, {
+      method: "PUT",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(user),
+    });
+    const data = await response.json();
+    console.log("User updated:", data);
+  } catch (error) {
+    console.error("error updating user: ", error);
+  }
+};
 //*To be continue...
