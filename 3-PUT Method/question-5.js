@@ -17,7 +17,7 @@ const updatedUser = {
 
 //
 
-const apiEndpoint = "https://mockapi.io/clone/679524c4aad755a134eb51f7";
+const apiEndpoint = "https://67c1c76761d8935867e43d92.mockapi.io/api/b1/";
 
 const updatingUser = async (user) => {
   try {

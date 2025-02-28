@@ -20,7 +20,7 @@ const users = [
 
 /** WRITE YOUR CODE BELOW DOWN */
 
-const apiEndPoint = "https://mockapi.io/clone/679524c4aad755a134eb51f7";
+const apiEndPoint = "https://67c1c76761d8935867e43d92.mockapi.io/api/b1/";
 const addUsers = async (user) => {
   try {
     const response = await fetch(apiEndPoint, {
